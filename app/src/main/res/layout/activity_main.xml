@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/switch1"
         android:checked="false"
-        android:text="tamura"
+        android:text="kitamatsu"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/switch2"
         android:layout_toStartOf="@+id/switch2" />
