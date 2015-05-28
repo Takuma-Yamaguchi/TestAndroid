@@ -24,10 +24,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/switch1"
         android:checked="false"
-        android:text="山口"
+        android:text="kojima"
         android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView" />
+        android:layout_toLeftOf="@+id/switch2"
+        android:layout_toStartOf="@+id/switch2" />
 
     <Button
         android:layout_width="wrap_content"
@@ -39,16 +39,6 @@
         android:layout_alignStart="@+id/switch1"
         android:layout_marginTop="29dp" />
 
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New RadioButton"
-        android:id="@+id/radioButton2"
-        android:layout_alignBaseline="@+id/radioButton"
-        android:layout_alignBottom="@+id/radioButton"
-        android:layout_toRightOf="@+id/radioButton"
-        android:layout_toEndOf="@+id/radioButton" />
-
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,22 +48,14 @@
         android:layout_toRightOf="@+id/radioButton"
         android:layout_toEndOf="@+id/radioButton" />
 
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        android:id="@+id/toggleButton"
-        android:layout_above="@+id/radioButton2"
-        android:layout_alignRight="@+id/switch2"
-        android:layout_alignEnd="@+id/switch2" />
-
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New CheckBox"
         android:id="@+id/checkBox"
-        android:layout_alignBottom="@+id/toggleButton"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_alignBaseline="@+id/radioButton"
+        android:layout_alignBottom="@+id/radioButton"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
 
 </RelativeLayout>
